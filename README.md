@@ -6,7 +6,7 @@ To use, put controllers in lib inheriting from controller_base, a list of desire
 routes for those controllers in bin/router_server.rb (either per HTTP method, or 
 using the router#resources helper), and any needed html.erb views in views.
 
-## Controller_base
+## ControllerBase
 Similar to Rails ActionController::Base, serves a base class for different 
 controllers. Contains the logic for building a HTTP response, whether an html page 
 or a redirect. 
